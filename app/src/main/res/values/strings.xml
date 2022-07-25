@@ -1,0 +1,41 @@
+<resources>
+    <string name="Floor">Floor:</string>
+    <string name="FirstName">First Name:</string>
+    <string name="SecondName">Second Name:</string>
+    <string name="Flat">Flat:</string>
+    <string name="Phone">Phone:</string>
+    <string name="Email">Email:</string>
+    <string name="Back">Back</string>
+    <string name="app_name">Nei</string>
+    <string name="tfloor">Floor</string>
+    <string name="tflat">Flat</string>
+    <string name="f1">1</string>
+    <string name="f2">2</string>
+    <string name="f3">3</string>
+    <string name="f4">4</string>
+    <string name="f5">5</string>
+    <string name="f6">6</string>
+    <string name="f7">7</string>
+    <string name="f8">8</string>
+    <string name="f9">9</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="your_phone">Your phone</string>
+    <string name="your_password">Your password</string>
+    <string name="password">Password:</string>
+    <string name="ok">OK</string>
+    <string name="sign_in">Sign In</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="your_first_name">Your first name</string>
+    <string name="your_second_name">Your second name</string>
+    <string name="your_floor">Your floor</string>
+    <string name="your_flat">Your flat</string>
+    <string name="edit">EDIT</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="Nei.">Nei.</string>
+    <string name="log_in">Log In</string>
+
+</resources>
