@@ -1,4 +1,4 @@
-package com.ksivanova.news
+package com.example.myapplication
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

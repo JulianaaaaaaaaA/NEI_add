@@ -1,4 +1,4 @@
-package com.ksivanova.news
+package com.example.myapplication
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.DrawableRes
 import androidx.recyclerview.widget.RecyclerView
-import com.ksivanova.news.R
 
 // Класс, сообщающий RecyclerView, сколько данных есть, какие вью создавать и как их обновлять
 class NewsAdapter: RecyclerView.Adapter<MessageViewHolder>() {
