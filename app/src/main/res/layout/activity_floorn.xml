@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light"
+    tools:context=".floor">
+
+    <TextView
+        android:id="@+id/t_floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/tfloor"
+        android:textColor="@color/dark"
+        android:textSize="60sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_1"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/f1"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bfloor_2"
+        app:layout_constraintTop_toBottomOf="@id/t_floor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_2"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:text="@string/f2"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintBaseline_toBaselineOf="@id/bfloor_1"
+        app:layout_constraintRight_toLeftOf="@id/bfloor_3"
+        app:layout_constraintLeft_toRightOf="@id/bfloor_1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_3"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:text="@string/f3"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintBaseline_toBaselineOf="@id/bfloor_2"
+        app:layout_constraintLeft_toRightOf="@id/bfloor_2"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_4"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/f4"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bfloor_5"
+        app:layout_constraintTop_toBottomOf="@id/bfloor_1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_5"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:text="@string/f5"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintBaseline_toBaselineOf="@id/bfloor_4"
+        app:layout_constraintRight_toLeftOf="@id/bfloor_6"
+        app:layout_constraintLeft_toRightOf="@id/bfloor_4"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_6"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:text="@string/f6"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintBaseline_toBaselineOf="@id/bfloor_5"
+        app:layout_constraintLeft_toRightOf="@id/bfloor_5"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_7"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/f7"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bfloor_8"
+        app:layout_constraintTop_toBottomOf="@id/bfloor_4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_8"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:text="@string/f8"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintBaseline_toBaselineOf="@id/bfloor_7"
+        app:layout_constraintRight_toLeftOf="@id/bfloor_9"
+        app:layout_constraintLeft_toRightOf="@id/bfloor_7"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bfloor_9"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:text="@string/f9"
+        android:textColor="@color/dark"
+        android:textSize="28sp"
+        android:background="@color/or"
+        app:layout_constraintBaseline_toBaselineOf="@id/bfloor_8"
+        app:layout_constraintLeft_toRightOf="@id/bfloor_8"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/floor_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/or"
+        android:text="@string/Back"
+        android:textColor="@color/dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bfloor_7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
